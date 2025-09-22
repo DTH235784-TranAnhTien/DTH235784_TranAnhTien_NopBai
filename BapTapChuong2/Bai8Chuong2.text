@@ -1,0 +1,6 @@
+Các loại lỗi khi lập trình Python
+    -Lỗi cú pháp (SyntaxError)
+    -Lỗi logic
+    -Lỗi khi chạy (RuntimeError)
+    -Lỗi nhập/xuất (IOError)
+

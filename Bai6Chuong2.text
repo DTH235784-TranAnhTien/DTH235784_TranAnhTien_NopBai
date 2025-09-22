@@ -1,8 +1,0 @@
-Ý nghĩa của các toán tử trong Python:
-/ : Chia thực (kết quả là số thực, ví dụ: 5 / 2 = 2.5)
-// : Chia lấy phần nguyên (kết quả là số nguyên, ví dụ: 5 // 2 = 2)
-% : Chia lấy dư (kết quả là phần dư, ví dụ: 5 % 2 = 1)
-** : Lũy thừa (ví dụ: 2 ** 3 = 8)
-and : Toán tử logic "và" (chỉ trả về True nếu cả hai vế đều True)
-or : Toán tử logic "hoặc" (trả về True nếu ít nhất một vế là True)
-is : So sánh hai đối tượng có cùng tham chiếu trong bộ nhớ hay không (ví dụ: a is b)

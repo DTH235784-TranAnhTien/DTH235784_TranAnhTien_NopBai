@@ -1,0 +1,71 @@
+(a) i1 + (i2 * i3)
+Kết quả: 2 + (5 * -3) = 2 + (-15) = -13
+Giải thích: Nhân trước (5 * -3 = -15), sau đó cộng với 2.
+
+(b) i1 * (i2 + i3)
+Kết quả: 2 * (5 + -3) = 2 * 2 = 4
+Giải thích: Cộng trong ngoặc trước (5 + -3 = 2), sau đó nhân với 2.
+
+(c) i1 / (i2 + i3)
+Kết quả: 2 / (5 + -3) = 2 / 2 = 1.0
+Giải thích: Cộng trong ngoặc (5 + -3 = 2), chia 2 cho 2 ra 1.0 (kiểu float).
+
+(d) i1 // (i2 + i3)
+Kết quả: 2 // (5 + -3) = 2 // 2 = 1
+Giải thích: Tương tự trên nhưng dùng phép chia lấy phần nguyên (//).
+
+(e) i1 / i2 + i3
+Kết quả: 2 / 5 + (-3) = 0.4 + (-3) = -2.6
+Giải thích: Chia trước (2/5 = 0.4), sau đó cộng với -3.
+
+(f) i1 // i2 + i3
+Kết quả: 2 // 5 + (-3) = 0 + (-3) = -3
+Giải thích: Chia lấy nguyên (2//5 = 0), cộng với -3.
+
+(g) 3 + 4 + 5 / 3
+Kết quả: 3 + 4 + (5 / 3) = 3 + 4 + 1.666... = 8.666...
+Giải thích: Chia trước (5/3), sau đó cộng 3 và 4.
+
+(h) 3 + 4 + 5 // 3
+Kết quả: 3 + 4 + (5 // 3) = 3 + 4 + 1 = 8
+Giải thích: Chia lấy nguyên (5//3 = 1), cộng 3 và 4.
+
+(i) (3 + 4 + 5) / 3
+Kết quả: (3 + 4 + 5) / 3 = 12 / 3 = 4.0
+Giải thích: Cộng trong ngoặc trước (3+4+5=12), chia cho 3.
+
+(j) (3 + 4 + 5) // 3
+Kết quả: (3 + 4 + 5) // 3 = 12 // 3 = 4
+Giải thích: Tương tự trên nhưng lấy phần nguyên.
+
+(k) d1 + (d2 * d3)
+Kết quả: 2.0 + (5.0 * -0.5) = 2.0 + (-2.5) = -0.5
+Giải thích: Nhân trước (5.0 * -0.5 = -2.5), cộng với 2.0
+
+(l) d1 + d2 * d3
+Kết quả: 2.0 + 5.0 * -0.5 = 2.0 + (-2.5) = -0.5
+Giải thích: Nhân trước, cộng sau (giống câu k).
+
+(m) d1 / d2 - d3
+Kết quả: 2.0 / 5.0 - (-0.5) = 0.4 - (-0.5) = 0.4 + 0.5 = 0.9
+Giải thích: Chia trước (2.0/5.0=0.4), trừ số âm thành cộng.
+
+(n) d1 / (d2 - d3)
+Kết quả: 2.0 / (5.0 - -0.5) = 2.0 / 5.5 ≈ 0.3636
+Giải thích: Trừ trong ngoặc (5.0 - -0.5 = 5.5), chia 2.0 cho 5.5.
+
+(o) d1 + d2 + d3 / 3
+Kết quả: 2.0 + 5.0 + (-0.5) / 3 = 2.0 + 5.0 + (-0.1666...) = 7.0 - 0.1666... = 6.8333...
+Giải thích: Chia trước (-0.5/3 ≈ -0.1666), cộng với 2.0 và 5.0.
+
+(p) (d1 + d2 + d3) / 3
+Kết quả: (2.0 + 5.0 + -0.5) / 3 = (6.5) / 3 ≈ 2.1666...
+Giải thích: Cộng trong ngoặc trước, sau đó chia cho 3.
+
+(q) d1 + d2 + (d3 / 3)
+Kết quả: 2.0 + 5.0 + (-0.5 / 3) = 2.0 + 5.0 + (-0.1666...) = 6.8333...
+Giải thích: Chia trước (-0.5/3), cộng với 2.0 và 5.0 (giống câu o).
+
+(r) 3 * (d1 + d2) * (d1 - d3)
+Kết quả: 3 * (2.0 + 5.0) * (2.0 - -0.5) = 3 * 7.0 * 2.5 = 21.0 * 2.5 = 52.5
+Giải thích: Tính trong ngoặc trước, sau đó nhân lần lượt.

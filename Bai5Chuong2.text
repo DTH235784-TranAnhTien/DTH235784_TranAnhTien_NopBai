@@ -1,5 +1,0 @@
-Trong python có 2 loại ghi chú:
--Ghi chú một dòng: Sử dụng ký tự # ở đầu dòng. Mọi nội dung sau dấu # trên cùng một dòng
-    sẽ được coi là ghi chú.
--Ghi chú nhiều dòng: Có thể dùng nhiều dấu # liên tiếp hoặc sử dụng cặp dấu nháy ba 
-    (''' hoặc """).
